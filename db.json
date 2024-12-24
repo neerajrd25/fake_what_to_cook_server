@@ -1,0 +1,108 @@
+{
+  "recipies_master":[
+    {
+      "id": 1,
+      "name": "Dosa",
+      "user_id": 1,
+      "meal_timings": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    },
+    {
+      "id": 2,
+      "name": "Egg Curry",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"EGG",
+      "active": 1
+    },
+    {
+      "id": 3,
+      "name": "Bhindi Masala",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    },
+    {
+      "id": 4,
+      "name": "Chicken Masala",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"NON_VEG",
+      "active": 1
+    },
+    {
+      "id": 5,
+      "name": "Poha",
+      "user_id": 1,
+      "meal_timings": [
+        "Breakfast"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    },
+     {
+      "id": 6,
+      "name": "Dal Rice",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    }
+  ],
+  "recommendations": {
+    "for_date" : "2024-12-25",
+    "breakfast" :{
+       "id": 5,
+      "name": "Poha",
+      "user_id": 1,
+      "meal_timings": [
+        "Breakfast"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    },
+     "lunch" :{
+      "id": 2,
+      "name": "Egg Curry",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"EGG",
+      "active": 1
+    },
+     "dinner" :{
+       "id": 6,
+      "name": "Dal Rice",
+      "user_id": 1,
+      "meal_timings": [
+        "Lunch",
+        "Dinner"
+      ],
+      "diet_preference":"VEG",
+      "active": 1
+    }
+  },
+  "cooked_reciepes":[
+    
+  ]
+  
+}
